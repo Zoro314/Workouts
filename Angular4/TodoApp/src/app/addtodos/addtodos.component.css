@@ -1,0 +1,29 @@
+input{
+    border: 0px ;
+    border-radius: 0px ;
+    padding-bottom: 0px ;
+    border-bottom: 1px solid #333 !important ;
+}
+
+.input-group span{
+    background-color: transparent ;
+    border: 1px ;
+    font-size: 20px !important ;
+    padding-bottom: 0px ;
+    border-bottom: 0px solid #333 ;
+    border-radius: 0px ;
+    color: #31b0d5 ;
+    font-family: 'Letter Gothic Std' ;
+    font-weight: 900 ;
+    position: relative ;
+    bottom: -6px ;
+    left: -5px ;
+}
+
+form .btn-block{
+    color: white ;
+    background-color: #333 ;
+    font-weight: 500 ;
+    margin-top: 10px !important ;
+    display: inline-block
+}

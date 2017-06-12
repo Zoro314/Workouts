@@ -1,0 +1,23 @@
+.card:hover{
+    background-color: #fafafa ;
+}
+
+.card{
+    transition: background-color 0.2s linear ;
+    box-shadow: 1px 1px 2px #999 ;
+    border-radius: 0px ;
+    margin: 0 auto ;
+    margin-bottom: 15px ;
+    border: 1px solid #999 ;
+}
+
+.trash-icon{
+    float: right ;
+    width: 30px ;
+    height: 30px ;
+    background-image: url('../../assets/trash.png') ;
+    background-size: 30px 30px ;
+    background-color: transparent ;
+    border: 0px ;
+    outline: none ;
+}

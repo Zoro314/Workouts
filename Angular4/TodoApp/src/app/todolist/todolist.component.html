@@ -1,0 +1,12 @@
+
+<div class="card" *ngFor="let todo of this.todoService.getTodos()" >
+  <div class="card-block col-lg-6" >
+      <h2 class="card-title" >{{todo.title}}</h2>
+      <p class="card-text" >{{todo.desc}}</p>
+      <div class="row">
+      <div class="col-md-6" ><a href="#" class="card-link" >{{todo.date.day}}-{{todo.date.month}}-{{todo.date.year}}</a></div>
+      <div class="col-md-6" > <button class="trash-icon" value="{{todo.counter}}" (click)="this.todoRemove()" ></button></div>
+      </div>
+      <Pre>{{this.todoService.todos|json}}</Pre>
+  </div>
+</div>  
