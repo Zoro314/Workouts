@@ -19,5 +19,11 @@ getTodos() {
    return this.todos ;
 }
 
+removeTodo( finishedToDo: Todo ) {
+    const counter = this.todos.indexOf( finishedToDo ) ;
+    this.todos.splice(counter, 1 ) ;
+    console.log( 'TODOs >> ' + JSON.stringify(this.todos) ) ;
+}
+
 
 }
